@@ -1,5 +1,5 @@
 #Setting up testing environment in Mocha + chai
-##Just playing around with different issues
+##Testing web server requests with mocha and chai
 
 ###Tutorial:
 https://semaphoreci.com/community/tutorials/getting-started-with-node-js-and-mocha
