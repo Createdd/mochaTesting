@@ -6,11 +6,7 @@ exports.rgbToHex = function(red, green, blue) {
 
   return pad(redHex) + pad(greenHex) + pad(blueHex);
 
-};
-
-function pad(hex) {
-  return (hex.length === 1 ? "0" + hex : hex);
-}
+};//export the function
 
 exports.hexToRgb = function(hex) {
 
@@ -20,4 +16,8 @@ exports.hexToRgb = function(hex) {
 
   return [red, green, blue];
 
-};
+};//export the function
+
+function pad(hex) {
+  return (hex.length === 1 ? "0" + hex : hex);
+}
